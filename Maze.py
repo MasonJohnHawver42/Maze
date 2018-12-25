@@ -167,7 +167,7 @@ class Maze:
 
 
         cv2.imshow("Maze", cv2.resize(maze_img_arr, (int(maze_img_arr.shape[1] * scale), int(maze_img_arr.shape[0] * scale)), interpolation=0))
-        cv2.waitKey(0)
+        cv2.waitKey(1000)
 
         return answer
 
